@@ -21,7 +21,7 @@ public class CourseController {
         return courseService.getAllCourses();
     }
 
-    @RequestMapping("//topics/{id}/courses/{courseId}")
+    @RequestMapping("/topics/{id}/courses/{courseId}")
     public Course getCourse(@PathVariable("id") String id, @PathVariable("courseId") String courseId){
         return courseService.getCourse(courseId);
     }
