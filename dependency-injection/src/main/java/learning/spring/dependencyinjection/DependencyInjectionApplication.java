@@ -1,6 +1,7 @@
 package learning.spring.dependencyinjection;
 
 import learning.spring.dependencyinjection.controller.ConstructorInjectedController;
+import learning.spring.dependencyinjection.controller.PrimaryGreetingController;
 import learning.spring.dependencyinjection.controller.PropertyInjectedController;
 import learning.spring.dependencyinjection.controller.SetterInjectedController;
 import org.springframework.boot.SpringApplication;
@@ -15,5 +16,6 @@ public class DependencyInjectionApplication {
         System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
         System.out.println(ctx.getBean(SetterInjectedController.class).sayHello());
         System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
+        System.out.println(ctx.getBean(PrimaryGreetingController.class).sayHello());
     }
 }
