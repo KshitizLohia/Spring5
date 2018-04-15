@@ -14,4 +14,5 @@
 | Service                                                | Tutorials       | 		        
 | -------------------------------------------------------| ----------------------------------------------------| 				      
 | messenger-a016c1af1b9a195c6518c5fce60282be215efc73     | https://javabrains.io/courses/javaee_jaxrs/           | 		        
-| spring                                                 | https://javabrains.io/courses/spring_bootquickstart/  | 
+| basic spring rest service with thymeleaf               | https://javabrains.io/courses/spring_bootquickstart/  | 
+| dependency injection                                   | https://javabrains.io/courses/spring_bootquickstart/  |
