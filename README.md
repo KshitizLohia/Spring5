@@ -18,5 +18,5 @@
 | spring5                                                | https://www.udemy.com/spring-framework-5-beginner-to-guru | 
 | dependency injection                                   | https://www.udemy.com/spring-framework-5-beginner-to-guru  |
 | beanlifecycle                                          | https://www.udemy.com/spring-framework-5-beginner-to-guru |
-| spring5-factory-beans                                  | https://www.udemy.com/spring-framework-5-beginner-to-guru |
+| spring5-factory-beans + property config                | https://www.udemy.com/spring-framework-5-beginner-to-guru |
 
