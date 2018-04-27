@@ -1,9 +1,14 @@
 package guru.springframework.recipeapp.models;
 
 
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
 import javax.persistence.*;
 
+@Data
 @Entity
+@EqualsAndHashCode(exclude = {"recipe"})
 public class Notes {
 
     @Id
@@ -15,6 +20,5 @@ public class Notes {
 
     @Lob
     private String recipeNotes;
-
 
 }
